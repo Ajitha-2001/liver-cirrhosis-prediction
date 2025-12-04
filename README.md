@@ -141,7 +141,7 @@ Liver-Cirrhosis-Prediction/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/liver-cirrhosis-prediction.git
+git clone https://github.com/Ajitha-2001/liver-cirrhosis-prediction.git
 cd liver-cirrhosis-prediction
 ```
 
@@ -330,7 +330,7 @@ Mayo Clinic Primary Biliary Cirrhosis Data
 - Days under observation
 
 **Target:**
-- Cirrhosis Stage (1-4)
+- Cirrhosis Stage (1-3)
 
 ### Statistics
 - **Total Samples:** 418
