@@ -48,7 +48,7 @@ The **Liver Cirrhosis Stage Prediction System** is a comprehensive machine learn
 ## ✨ Features
 
 ### 🔮 Prediction System
-- Real-time cirrhosis stage prediction (Stages 1-4)
+- Real-time cirrhosis stage prediction (Stages 1-3)
 - Confidence scores for each prediction
 - Probability distribution visualization
 - Stage-specific recommendations
