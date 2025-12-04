@@ -1,0 +1,8 @@
+{
+    "execution_time_seconds": 142.426047,
+    "best_initial_model": "XGBoost",
+    "initial_best_score": 0.9598180833397911,
+    "tuned_best_score": 0.962411615887583,
+    "improvement_percent": 0.2702108444099473,
+    "timestamp": "2025-12-04 13:19:13"
+}

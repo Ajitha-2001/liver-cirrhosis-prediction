@@ -1,0 +1,39 @@
+PREPROCESSING SUMMARY
+============================================================
+
+original_shape:
+(25000, 19)
+
+n_features_original:
+18
+
+n_features_processed:
+20
+
+n_train_samples:
+20000
+
+n_test_samples:
+5000
+
+numeric_cols:
+['N_Days', 'Age', 'Bilirubin', 'Cholesterol', 'Albumin', 'Copper', 'Alk_Phos', 'SGOT', 'Tryglicerides', 'Platelets', 'Prothrombin']
+
+categorical_cols:
+['Status', 'Drug', 'Sex', 'Ascites', 'Hepatomegaly', 'Spiders', 'Edema']
+
+target_classes:
+[np.int64(1), np.int64(2), np.int64(3)]
+
+target_mapping:
+{np.int64(1): np.int64(0), np.int64(2): np.int64(1), np.int64(3): np.int64(2)}
+
+train_class_distribution:
+{0: np.int64(6612), 1: np.int64(6753), 2: np.int64(6635)}
+
+test_class_distribution:
+{0: np.int64(1653), 1: np.int64(1688), 2: np.int64(1659)}
+
+feature_names:
+['N_Days', 'Age', 'Bilirubin', 'Cholesterol', 'Albumin', 'Copper', 'Alk_Phos', 'SGOT', 'Tryglicerides', 'Platelets', 'Prothrombin', 'Status_CL', 'Status_D', 'Drug_Placebo', 'Sex_M', 'Ascites_Y', 'Hepatomegaly_Y', 'Spiders_Y', 'Edema_S', 'Edema_Y']
+

@@ -1,0 +1,106 @@
+LIVER CIRRHOSIS DATASET SUMMARY
+============================================================
+
+Shape: (25000, 19)
+Rows: 25000
+Columns: 19
+
+Column Names:
+['N_Days', 'Status', 'Drug', 'Age', 'Sex', 'Ascites', 'Hepatomegaly', 'Spiders', 'Edema', 'Bilirubin', 'Cholesterol', 'Albumin', 'Copper', 'Alk_Phos', 'SGOT', 'Tryglicerides', 'Platelets', 'Prothrombin', 'Stage']
+
+Data Types:
+N_Days             int64
+Status            object
+Drug              object
+Age                int64
+Sex               object
+Ascites           object
+Hepatomegaly      object
+Spiders           object
+Edema             object
+Bilirubin        float64
+Cholesterol      float64
+Albumin          float64
+Copper           float64
+Alk_Phos         float64
+SGOT             float64
+Tryglicerides    float64
+Platelets        float64
+Prothrombin      float64
+Stage              int64
+dtype: object
+
+First 5 Rows:
+   N_Days Status     Drug    Age Sex Ascites Hepatomegaly Spiders Edema  \
+0    2221      C  Placebo  18499   F       N            Y       N     N   
+1    1230      C  Placebo  19724   M       Y            N       Y     N   
+2    4184      C  Placebo  11839   F       N            N       N     N   
+3    2090      D  Placebo  16467   F       N            N       N     N   
+4    2105      D  Placebo  21699   F       N            Y       N     N   
+
+   Bilirubin  Cholesterol  Albumin  Copper  Alk_Phos    SGOT  Tryglicerides  \
+0        0.5        149.0     4.04   227.0     598.0   52.70           57.0   
+1        0.5        219.0     3.93    22.0     663.0   45.00           75.0   
+2        0.5        320.0     3.54    51.0    1243.0  122.45           80.0   
+3        0.7        255.0     3.74    23.0    1024.0   77.50           58.0   
+4        1.9        486.0     3.54    74.0    1052.0  108.50          109.0   
+
+   Platelets  Prothrombin  Stage  
+0      256.0          9.9      1  
+1      220.0         10.8      2  
+2      225.0         10.0      2  
+3      151.0         10.2      2  
+4      151.0         11.5      1  
+
+Descriptive Statistics:
+              N_Days Status     Drug           Age    Sex Ascites  \
+count   25000.000000  25000    25000  25000.000000  25000   25000   
+unique           NaN      3        2           NaN      2       2   
+top              NaN      C  Placebo           NaN      F       N   
+freq             NaN  13516    15827           NaN  22137   16798   
+mean     1887.117040    NaN      NaN  18495.877080    NaN     NaN   
+std      1091.690918    NaN      NaN   3737.596616    NaN     NaN   
+min        41.000000    NaN      NaN   9598.000000    NaN     NaN   
+25%      1080.000000    NaN      NaN  15694.000000    NaN     NaN   
+50%      1680.000000    NaN      NaN  18499.000000    NaN     NaN   
+75%      2576.000000    NaN      NaN  20955.000000    NaN     NaN   
+max      4795.000000    NaN      NaN  28650.000000    NaN     NaN   
+
+       Hepatomegaly Spiders  Edema     Bilirubin   Cholesterol       Albumin  \
+count         25000   25000  25000  25000.000000  25000.000000  25000.000000   
+unique            2       2      3           NaN           NaN           NaN   
+top               N       N      N           NaN           NaN           NaN   
+freq          15243   13614  20220           NaN           NaN           NaN   
+mean            NaN     NaN    NaN      3.402644    372.331471      3.486578   
+std             NaN     NaN    NaN      4.707491    193.668452      0.380488   
+min             NaN     NaN    NaN      0.300000    120.000000      1.960000   
+25%             NaN     NaN    NaN      0.800000    275.000000      3.290000   
+50%             NaN     NaN    NaN      1.300000    369.510563      3.510000   
+75%             NaN     NaN    NaN      3.400000    369.510563      3.750000   
+max             NaN     NaN    NaN     28.000000   1775.000000      4.640000   
+
+              Copper      Alk_Phos          SGOT  Tryglicerides     Platelets  \
+count   25000.000000  25000.000000  25000.000000   25000.000000  25000.000000   
+unique           NaN           NaN           NaN            NaN           NaN   
+top              NaN           NaN           NaN            NaN           NaN   
+freq             NaN           NaN           NaN            NaN           NaN   
+mean      100.184663   1995.675597    123.166345     123.822548    256.007337   
+std        73.184840   1798.885660     47.747616      52.786350     98.679006   
+min         4.000000    289.000000     26.350000      33.000000     62.000000   
+25%        52.000000   1032.000000     92.000000      92.000000    189.000000   
+50%        97.648387   1828.000000    122.556346     124.702128    251.000000   
+75%       107.000000   1982.655769    134.850000     127.000000    311.000000   
+max       588.000000  13862.400000    457.250000     598.000000    721.000000   
+
+         Prothrombin        Stage  
+count   25000.000000  25000.00000  
+unique           NaN          NaN  
+top              NaN          NaN  
+freq             NaN          NaN  
+mean       10.734549      2.00116  
+std         0.904436      0.81387  
+min         9.000000      1.00000  
+25%        10.000000      1.00000  
+50%        10.600000      2.00000  
+75%        11.100000      3.00000  
+max        18.000000      3.00000  
